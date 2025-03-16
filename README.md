@@ -3,37 +3,46 @@
 ## Janji
 Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Latihan Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
-## Alur Program
-Program ini merupakan aplikasi desktop sederhana berbasis Java yang menggunakan Swing untuk antarmuka pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, seperti NIM, nama, jenis kelamin, dan kelas. Berikut adalah alur kerja program ini:
-1. **Tampilan Utama**
-Saat program dijalankan, pengguna akan melihat antarmuka aplikasi yang terdiri dari beberapa komponen, yaitu:
-    - Formulir input data (NIM, nama, jenis kelamin, dan kelas)
-    - Tabel untuk menampilkan daftar mahasiswa
-    - Tombol aksi seperti "Add/Update", "Delete", dan "Cancel"
+## Alur Program  
 
-2. **Pengelolaan Data Mahasiswa**
-    - **Menambahkan Data**
-Pengguna dapat mengisi formulir di bagian atas, memilih jenis kelamin, dan menentukan kelas mahasiswa (menggunakan tombol radio). Setelah semua data terisi, pengguna dapat mengklik tombol "Add/Update" untuk menyimpan data. Data yang dimasukkan akan ditampilkan dalam tabel.
-    - **Mengubah Data**
-Pengguna dapat mengklik salah satu baris data di tabel untuk memuat data tersebut ke dalam formulir. Setelah melakukan perubahan, pengguna dapat menekan tombol "Add/Update" untuk memperbarui data di tabel.
-    - **Menghapus Data**
-Pengguna dapat memilih baris data di tabel yang ingin dihapus, lalu menekan tombol "Delete". Data yang dipilih akan dihapus dari tabel.
-    - **Membatalkan Input**
-Untuk mengosongkan formulir tanpa menyimpan data, pengguna dapat menekan tombol "Cancel".
+Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk antarmuka pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan kelas.  
 
-3. **Interaksi Tabel**
-    - Tabel menampilkan semua data mahasiswa yang telah dimasukkan.
-    - Saat pengguna mengklik salah satu baris di tabel, data pada baris tersebut dimuat ke dalam formulir untuk diperbarui atau dihapus.
+### 1. Tampilan Utama  
+Saat program dijalankan, pengguna akan melihat antarmuka yang terdiri dari:  
+- **Formulir input data**, mencakup NIM, nama, jenis kelamin, dan kelas.  
+- **Tabel data mahasiswa**, yang menampilkan daftar mahasiswa yang telah dimasukkan.  
+- **Tombol aksi**, yaitu:  
+  - **"Add/Update"** – Menambah atau memperbarui data mahasiswa.  
+  - **"Delete"** – Menghapus data mahasiswa yang dipilih.  
+  - **"Cancel"** – Mengosongkan formulir input.  
 
-4. **Validasi dan Pembersihan Formulir**
-    - Program akan memastikan data yang dimasukkan memiliki format yang benar sebelum ditambahkan ke tabel.
-    - Setelah melakukan operasi (menambah, memperbarui, atau menghapus), formulir akan dikosongkan secara otomatis.
+### 2. Pengelolaan Data Mahasiswa  
+- **Menambahkan Data**  
+  Pengguna mengisi formulir, memilih jenis kelamin, dan menentukan kelas (menggunakan tombol radio). Setelah itu, klik **"Add/Update"** untuk menyimpan data, yang kemudian akan muncul di tabel.  
 
-5. **Struktur Data**
-    - Data mahasiswa dikelola menggunakan struktur `ArrayList`, yang digunakan untuk menyimpan objek `Mahasiswa`.
-    - Tabel pada antarmuka pengguna diperbarui secara dinamis berdasarkan data dalam `ArrayList`.
+- **Mengubah Data**  
+  Pengguna dapat mengklik salah satu baris di tabel untuk memuat data ke dalam formulir. Setelah perubahan dilakukan, klik **"Add/Update"** untuk memperbarui data di tabel.  
 
-Program ini dirancang untuk memberikan pengguna fleksibilitas sekaligus kemudahan dalam mengelola daftar mahasiswa dengan antarmuka grafis yang sederhana.
+- **Menghapus Data**  
+  Pilih data yang ingin dihapus dari tabel, lalu tekan **"Delete"**. Data akan dihapus secara permanen.  
+
+- **Membatalkan Input**  
+  Klik **"Cancel"** untuk mengosongkan formulir tanpa menyimpan perubahan.  
+
+### 3. Interaksi dengan Tabel  
+- Tabel menampilkan semua data mahasiswa yang telah dimasukkan.  
+- Klik salah satu baris di tabel untuk memuat data ke dalam formulir agar bisa diperbarui atau dihapus.  
+
+### 4. Validasi dan Pembersihan Formulir  
+- Program memastikan data yang dimasukkan sesuai format sebelum ditambahkan ke tabel.  
+- Setelah operasi (menambah, memperbarui, atau menghapus), formulir akan dikosongkan secara otomatis.  
+
+### 5. Struktur Data  
+- Data mahasiswa disimpan dalam struktur **`ArrayList`**, yang menyimpan objek **`Mahasiswa`**.  
+- Tabel pada antarmuka diperbarui secara dinamis berdasarkan data dalam **`ArrayList`**.  
+
+Aplikasi ini dirancang agar mudah digunakan dan memberikan fleksibilitas dalam mengelola daftar mahasiswa melalui antarmuka grafis yang intuitif.  
+
 
 ## Dokumentasi
 ![Screenshot 2025-03-16 152904](https://github.com/user-attachments/assets/4e94b858-99b2-436f-930a-ac891c159dd3)
