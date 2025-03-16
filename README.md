@@ -3,6 +3,10 @@
 ## Janji
 Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Latihan Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+## Desain
+![lp5 drawio](https://github.com/user-attachments/assets/7edc95be-339e-423d-b26a-07a1d4ee48c8)
+
+
 ## Alur Program  
 
 Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk interface pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan atribut tambahan yaitu kelas dengan menggunakan radio button yang pilihannya adalah C1 atau C2.
@@ -24,7 +28,7 @@ Saat program dijalankan, pengguna akan melihat interface yang terdiri dari:
   Pengguna dapat mengklik salah satu baris di tabel untuk memuat data ke dalam formulir. Setelah perubahan dilakukan, klik **"Add/Update"** untuk memperbarui data di tabel.  
 
 - **Menghapus Data**  
-  Pilih data yang ingin dihapus dari tabel, lalu tekan **"Delete"**. Data akan dihapus secara permanen.  
+  Pilih data yang ingin dihapus dari tabel, lalu tekan **"Delete"**. Data akan terhapus.  
 
 - **Membatalkan Input**  
   Klik **"Cancel"** untuk mengosongkan formulir tanpa menyimpan perubahan.  
