@@ -5,10 +5,10 @@ Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Latihan Praktikum 5
 
 ## Alur Program  
 
-Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk antarmuka pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan atribut tambahan yaitu kelas dengan menggunakan radio button yang pilihannya adalah C1 atau C2.
+Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk interface pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan atribut tambahan yaitu kelas dengan menggunakan radio button yang pilihannya adalah C1 atau C2.
 
 ### 1. Tampilan Utama  
-Saat program dijalankan, pengguna akan melihat antarmuka yang terdiri dari:  
+Saat program dijalankan, pengguna akan melihat interface yang terdiri dari:  
 - **Formulir input data**, mencakup NIM, nama, jenis kelamin, dan kelas.  
 - **Tabel data mahasiswa**, yang menampilkan daftar mahasiswa yang telah dimasukkan.  
 - **Tombol aksi**, yaitu:  
@@ -29,20 +29,17 @@ Saat program dijalankan, pengguna akan melihat antarmuka yang terdiri dari:
 - **Membatalkan Input**  
   Klik **"Cancel"** untuk mengosongkan formulir tanpa menyimpan perubahan.  
 
-### 3. Interaksi dengan Tabel  
+### 3. Informasi Tabel  
 - Tabel menampilkan semua data mahasiswa yang telah dimasukkan.  
 - Klik salah satu baris di tabel untuk memuat data ke dalam formulir agar bisa diperbarui atau dihapus.  
 
-### 4. Validasi dan Pembersihan Formulir  
+### 4. Validasi dan Clear Formulir  
 - Program memastikan data yang dimasukkan sesuai format sebelum ditambahkan ke tabel.  
 - Setelah operasi (menambah, memperbarui, atau menghapus), formulir akan dikosongkan secara otomatis.  
 
 ### 5. Struktur Data  
 - Data mahasiswa disimpan dalam struktur **`ArrayList`**, yang menyimpan objek **`Mahasiswa`**.  
-- Tabel pada antarmuka diperbarui secara dinamis berdasarkan data dalam **`ArrayList`**.  
-
-Aplikasi ini dirancang agar mudah digunakan dan memberikan fleksibilitas dalam mengelola daftar mahasiswa melalui antarmuka grafis yang intuitif.  
-
+- Tabel pada interface diperbarui secara dinamis berdasarkan data dalam **`ArrayList`**.  
 
 ## Dokumentasi
 ![Screenshot 2025-03-16 152904](https://github.com/user-attachments/assets/4e94b858-99b2-436f-930a-ac891c159dd3)
