@@ -5,7 +5,7 @@ Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Latihan Praktikum 5
 
 ## Alur Program  
 
-Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk antarmuka pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan kelas.  
+Program ini adalah aplikasi desktop berbasis Java yang menggunakan Swing untuk antarmuka pengguna. Aplikasi ini dirancang untuk mengelola data mahasiswa, termasuk NIM, nama, jenis kelamin, dan atribut tambahan yaitu kelas dengan menggunakan radio button yang pilihannya adalah C1 atau C2.
 
 ### 1. Tampilan Utama  
 Saat program dijalankan, pengguna akan melihat antarmuka yang terdiri dari:  
@@ -13,7 +13,7 @@ Saat program dijalankan, pengguna akan melihat antarmuka yang terdiri dari:
 - **Tabel data mahasiswa**, yang menampilkan daftar mahasiswa yang telah dimasukkan.  
 - **Tombol aksi**, yaitu:  
   - **"Add/Update"** – Menambah atau memperbarui data mahasiswa.  
-  - **"Delete"** – Menghapus data mahasiswa yang dipilih.  
+  - **"Delete"** – Menghapus data mahasiswa yang dipilih. Terdapat Alert sebelum menghapus, untuk meminta konfirmasi ulang hapus data
   - **"Cancel"** – Mengosongkan formulir input.  
 
 ### 2. Pengelolaan Data Mahasiswa  
