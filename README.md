@@ -1,7 +1,7 @@
-# LP5DPBO2025C1
+# TP4DPBO2025C1
 
 ## Janji
-Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Latihan Praktikum 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Tugas Praktikum 4 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ## Desain
 ![lp5 drawio](https://github.com/user-attachments/assets/7edc95be-339e-423d-b26a-07a1d4ee48c8)
